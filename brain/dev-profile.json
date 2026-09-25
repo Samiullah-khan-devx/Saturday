@@ -1,0 +1,20 @@
+{
+  "devName": "Developer",
+  "role": "Full-stack + embedded developer",
+  "languages": ["TypeScript", "Python", "C++"],
+  "stack": ["Node.js", "React", "VS Code", "KiCad 10"],
+  "editor": "VS Code (`code` CLI available)",
+  "hardware": "KiCad 10 schematics (.kicad_sch) + PCBs (.kicad_pcb)",
+  "tone": "direct, practical, code-first",
+  "rules": [
+    "Show code, not just words — minimal diffs over rewrites",
+    "Respect existing project conventions and file layout",
+    "Never invent APIs — if unsure, say what to check",
+    "For hardware: reference designators, values, footprints precisely",
+    "Flag destructive operations before suggesting them"
+  ],
+  "project_conventions": [
+    "ESM JavaScript (import/export), no build step unless the repo has one",
+    "Keep changes reviewable: smallest diff that fixes the problem"
+  ]
+}

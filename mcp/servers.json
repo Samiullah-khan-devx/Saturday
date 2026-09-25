@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "local-fs": {
+      "type": "builtin",
+      "builtin": "fs",
+      "enabled": true
+    },
+    "local-shell": {
+      "type": "builtin",
+      "builtin": "shell",
+      "enabled": true
+    },
+    "saturday": {
+      "type": "builtin",
+      "builtin": "saturday",
+      "enabled": true
+    }
+  },
+  "_help": "Add MCP stdio servers like: \"my-tools\": {\"type\":\"stdio\",\"command\":\"npx\",\"args\":[\"-y\",\"my-mcp-server\"],\"env\":{},\"enabled\":true} — or run: saturday mcp add <name> <command...>"
+}

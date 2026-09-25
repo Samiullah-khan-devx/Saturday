@@ -1,0 +1,14 @@
+# secrets — never commit
+.env
+
+# deps + build
+node_modules/
+dist/
+build/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/extensions.json

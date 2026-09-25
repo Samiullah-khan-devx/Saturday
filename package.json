@@ -1,0 +1,21 @@
+{
+  "name": "saturday",
+  "version": "2.0.0",
+  "description": "Saturday — coding CLI with VS Code + KiCad 10 support",
+  "type": "module",
+  "bin": {
+    "saturday": "./bin/saturday.mjs",
+    "fiverr": "./bin/fiverr.mjs"
+  },
+  "scripts": {
+    "start": "node bin/saturday.mjs tui",
+    "cli": "node bin/saturday.mjs",
+    "dev": "node --watch bin/saturday.mjs tui"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.1.0"
+  }
+}
