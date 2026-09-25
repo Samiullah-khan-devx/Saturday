@@ -9,7 +9,7 @@ hardware, jump to code in VS Code — no browser, no build step.
 ## Install — one line, then just type `saturday` anywhere
 
 ```bat
-npm.cmd install -g C:\Users\shuaib\fiverr-brain
+npm install -g https://github.com/Samiullah-khan-devx/saturday/archive/refs/heads/main.tar.gz
 ```
 
 ```bat
